@@ -45,7 +45,6 @@ function Install-AdobeReaderDC
 	$LatestBuild = "AcroRdrDC" + $LatestUpdate + "_en_US.exe"
 	Write-Verbose "Parsed latest filename: $LatestBuild"
 
-
 	#URI for latest file
 	$DownloadURL = "$FTPFolderUrl$LatestUpdate/$LatestBuild"
 	Write-Verbose "Parsed download URL: $DownloadURL"
